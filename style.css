@@ -1,0 +1,42 @@
+#container-id {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.slider-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    width: 34px;
+    height: 50px;
+    transform: translate(0, -50%);
+}
+
+.left-arrow {
+    background: url('imgs/left-arrow.png');
+    left: 0;
+}
+
+.right-arrow {
+    background: url('imgs/right-arrow.png');
+    right: 0;
+}
+
+.slider-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slider-wrapper ul li {
+    display: inline-block;
+    float: left;
+}
